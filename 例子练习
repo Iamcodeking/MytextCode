@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h> 
+using namespace std;
+int main()
+{
+	int a[] = { 2,0,2,2 };
+	int n = 3, sum = 0, i = 0;
+	for(i;i<4;i++)
+	{
+		sum += a[n] * pow(9, i);
+		n--;
+		
+	}
+	cout << sum;
+
+	return 0;
+}
